@@ -16,6 +16,10 @@ function App() {
               path="/hub"
               element={<EmbeddedApp url={"https://apphub.seco.com/"} />}
             />
+            <Route
+              path="/developer"
+              element={<EmbeddedApp url={"https://developer.seco.com/"} />}
+            />
           </Routes>
         </main>
       </section>
